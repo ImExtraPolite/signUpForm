@@ -24,12 +24,12 @@ body {
     height: 100%;
 }
 
-.mainRight > div {
-    padding: 200px 200px 0 50px;
+.top, .middle, .bottom {
+    padding: 0 200px 0 50px;
 }
 
-
 .top {
+    padding-top: 200px;
     font-size: 1.5rem;
 }
 
@@ -59,6 +59,7 @@ body {
 }
 
 .middle {
+    padding-top: 10px;
     margin: 30px auto;
     background-color: rgb(10, 10, 10);
 }
@@ -77,8 +78,12 @@ body {
     margin-right: 100px;
 }
 
-
-
 input {
     margin-bottom: 20px;
+    padding: 15px;
+    border: solid rgb(55, 55, 55);
+    border-radius: 10px;
+    background-color: rgb(10, 10, 10);
+    color: white;
+    font-size: 1rem;
 }
