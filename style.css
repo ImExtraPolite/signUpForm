@@ -106,3 +106,7 @@ input {
 .bottom a:hover {
     color: white;
 }
+
+#confirm-password:invalid {
+    border: solid red;
+}
